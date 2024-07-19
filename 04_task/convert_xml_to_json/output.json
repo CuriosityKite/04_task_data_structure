@@ -1,0 +1,812 @@
+"parameterDefinitions": {
+    "<xmlattr>": {
+        "xmlns": "http://www.axis.com/ParameterDefinitionsSchema",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:schemaLocation": "http://www.axis.com/ParameterDefinitionsSchema http://195.60.68.230:12022/pub/parameterdefinitions.xsd",
+        "version": "1.0"
+    },
+    "model": "AXIS P1367",
+    "firmwareVersion": "8.40.1",
+    "group": {
+        "<xmlattr>": {
+            "name": "root"
+        },
+        "group": {
+            "<xmlattr>": {
+                "name": "AudioSource"
+            },
+            "group": {
+                "<xmlattr>": {
+                    "name": "A0"
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "AlarmLevel",
+                        "value": "100",
+                        "securityLevel": "7714",
+                        "niceName": "Alarm level"
+                    },
+                    "type": {
+                        "int": {
+                            "<xmlattr>": {
+                                "min": "0",
+                                "max": "100"
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "AudioEncoding",
+                        "value": "aac",
+                        "securityLevel": "7714",
+                        "niceName": "Audio encoding"
+                    },
+                    "type": {
+                        "enum": {
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "lpcm",
+                                    "niceValue": "LPCM"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "g711",
+                                    "niceValue": "G711 &micro;-law"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "g726",
+                                    "niceValue": "G726"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "aac",
+                                    "niceValue": "AAC"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "opus",
+                                    "niceValue": "Opus"
+                                }
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "AudioSupport",
+                        "value": "yes",
+                        "securityLevel": "7706",
+                        "niceName": "Audio support"
+                    },
+                    "type": {
+                        "bool": {
+                            "<xmlattr>": {
+                                "true": "yes",
+                                "false": "no"
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "BitRate",
+                        "value": "32000",
+                        "securityLevel": "7714",
+                        "niceName": "Bit rate"
+                    },
+                    "type": {
+                        "enum": {
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "8000",
+                                    "niceValue": "8"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "12000",
+                                    "niceValue": "12"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "16000",
+                                    "niceValue": "16"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "24000",
+                                    "niceValue": "24"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "32000",
+                                    "niceValue": "32"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "48000",
+                                    "niceValue": "48"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "64000",
+                                    "niceValue": "64"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "128000",
+                                    "niceValue": "128"
+                                }
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "InputGain",
+                        "value": "15",
+                        "securityLevel": "7744",
+                        "niceName": "Input gain"
+                    },
+                    "type": {
+                        "enum": {
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "mute",
+                                    "niceValue": "Mute"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-12"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-11"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-10"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-9"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-8"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-7"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-6"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-5"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-4"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-3"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-2"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-1"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "0"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "1"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "2"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "3"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "4"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "5"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "6"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "7"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "8"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "9"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "10"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "11"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "12"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "13"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "14"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "15"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "16"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "17"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "18"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "19"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "20"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "21"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "22"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "23"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "24"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "25"
+                                }
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "InputType",
+                        "value": "mic",
+                        "securityLevel": "7744",
+                        "niceName": "Input type"
+                    },
+                    "type": {
+                        "enum": {
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "internal",
+                                    "niceValue": "Internal Microphone"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "mic",
+                                    "niceValue": "External Microphone"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "line",
+                                    "niceValue": "Line"
+                                }
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "MicrophonePower",
+                        "value": "yes",
+                        "securityLevel": "7744",
+                        "niceName": "Microphone power"
+                    },
+                    "type": {
+                        "bool": {
+                            "<xmlattr>": {
+                                "true": "yes",
+                                "false": "no"
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "Name",
+                        "value": "Audio",
+                        "securityLevel": "7744",
+                        "niceName": "Name"
+                    },
+                    "type": {
+                        "string": ""
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "NbrOfChannels",
+                        "value": "1",
+                        "securityLevel": "7744",
+                        "niceName": "Nbr of channels"
+                    },
+                    "type": {
+                        "<xmlattr>": {
+                            "readonly": "true"
+                        },
+                        "string": ""
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "OutputGain",
+                        "value": "0",
+                        "securityLevel": "7744",
+                        "niceName": "Output gain"
+                    },
+                    "type": {
+                        "enum": {
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "mute",
+                                    "niceValue": "Mute"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-57"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-56"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-55"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-54"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-53"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-52"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-51"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-50"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-49"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-48"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-47"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-46"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-45"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-44"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-43"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-42"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-41"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-40"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-39"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-38"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-37"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-36"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-35"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-34"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-33"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-32"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-31"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-30"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-29"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-28"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-27"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-26"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-25"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-24"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-23"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-22"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-21"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-20"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-19"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-18"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-17"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-16"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-15"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-14"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-13"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-12"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-11"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-10"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-9"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-8"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-7"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-6"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-5"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-4"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-3"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-2"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "-1"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "0"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "1"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "2"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "3"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "4"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "5"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "6"
+                                }
+                            }
+                        }
+                    }
+                },
+                "parameter": {
+                    "<xmlattr>": {
+                        "name": "SampleRate",
+                        "value": "48000",
+                        "securityLevel": "7714",
+                        "niceName": "Sample rate"
+                    },
+                    "type": {
+                        "enum": {
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "8000",
+                                    "niceValue": "8"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "16000",
+                                    "niceValue": "16"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "32000",
+                                    "niceValue": "32"
+                                }
+                            },
+                            "entry": {
+                                "<xmlattr>": {
+                                    "value": "48000",
+                                    "niceValue": "48"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

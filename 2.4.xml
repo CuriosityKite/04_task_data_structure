@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<parameterDefinitions
+xmlns="http://www.axis.com/ParameterDefinitionsSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.axis.com/ParameterDefinitionsSchema http://195.60.68.230:12022/pub/parameterdefinitions.xsd"
+version="1.0">
+  <model>AXIS P1367</model>
+  <firmwareVersion>8.40.1</firmwareVersion>
+  <group name="root">
+    <group name="AudioSource">
+      <group name="A0">
+        <parameter name="AlarmLevel" value="100" securityLevel="7714" niceName="Alarm level">
+          <type>
+            <int min="0" max="100" />
+          </type>
+        </parameter>
+        <parameter name="AudioEncoding" value="aac" securityLevel="7714" niceName="Audio encoding">
+          <type>
+            <enum>
+              <entry value="lpcm" niceValue="LPCM" />
+              <entry value="g711" niceValue="G711 &amp;micro;-law" />
+              <entry value="g726" niceValue="G726" />
+              <entry value="aac" niceValue="AAC" />
+              <entry value="opus" niceValue="Opus" />
+            </enum>
+          </type>
+        </parameter>
+        <parameter name="AudioSupport" value="yes" securityLevel="7706" niceName="Audio support">
+          <type>
+            <bool true="yes" false="no" />
+          </type>
+        </parameter>
+        <parameter name="BitRate" value="32000" securityLevel="7714" niceName="Bit rate">
+          <type>
+            <enum>
+              <entry value="8000" niceValue="8" />
+              <entry value="12000" niceValue="12" />
+              <entry value="16000" niceValue="16" />
+              <entry value="24000" niceValue="24" />
+              <entry value="32000" niceValue="32" />
+              <entry value="48000" niceValue="48" />
+              <entry value="64000" niceValue="64" />
+              <entry value="128000" niceValue="128" />
+            </enum>
+          </type>
+        </parameter>
+        <parameter name="InputGain" value="15" securityLevel="7744" niceName="Input gain">
+          <type>
+            <enum>
+              <entry value="mute" niceValue="Mute" />
+              <entry value="-12" />
+              <entry value="-11" />
+              <entry value="-10" />
+              <entry value="-9" />
+              <entry value="-8" />
+              <entry value="-7" />
+              <entry value="-6" />
+              <entry value="-5" />
+              <entry value="-4" />
+              <entry value="-3" />
+              <entry value="-2" />
+              <entry value="-1" />
+              <entry value="0" />
+              <entry value="1" />
+              <entry value="2" />
+              <entry value="3" />
+              <entry value="4" />
+              <entry value="5" />
+              <entry value="6" />
+              <entry value="7" />
+              <entry value="8" />
+              <entry value="9" />
+              <entry value="10" />
+              <entry value="11" />
+              <entry value="12" />
+              <entry value="13" />
+              <entry value="14" />
+              <entry value="15" />
+              <entry value="16" />
+              <entry value="17" />
+              <entry value="18" />
+              <entry value="19" />
+              <entry value="20" />
+              <entry value="21" />
+              <entry value="22" />
+              <entry value="23" />
+              <entry value="24" />
+              <entry value="25" />
+            </enum>
+          </type>
+        </parameter>
+        <parameter name="InputType" value="mic" securityLevel="7744" niceName="Input type">
+          <type>
+            <enum>
+              <entry value="internal" niceValue="Internal Microphone" />
+              <entry value="mic" niceValue="External Microphone" />
+              <entry value="line" niceValue="Line" />
+            </enum>
+          </type>
+        </parameter>
+        <parameter name="MicrophonePower" value="yes" securityLevel="7744" niceName="Microphone power">
+          <type>
+            <bool true="yes" false="no" />
+          </type>
+        </parameter>
+        <parameter name="Name" value="Audio" securityLevel="7744" niceName="Name">
+          <type>
+            <string />
+          </type>
+        </parameter>
+        <parameter name="NbrOfChannels" value="1" securityLevel="7744" niceName="Nbr of channels">
+          <type readonly="true">
+            <string />
+          </type>
+        </parameter>
+        <parameter name="OutputGain" value="0" securityLevel="7744" niceName="Output gain">
+          <type>
+            <enum>
+              <entry value="mute" niceValue="Mute" />
+              <entry value="-57" />
+              <entry value="-56" />
+              <entry value="-55" />
+              <entry value="-54" />
+              <entry value="-53" />
+              <entry value="-52" />
+              <entry value="-51" />
+              <entry value="-50" />
+              <entry value="-49" />
+              <entry value="-48" />
+              <entry value="-47" />
+              <entry value="-46" />
+              <entry value="-45" />
+              <entry value="-44" />
+              <entry value="-43" />
+              <entry value="-42" />
+              <entry value="-41" />
+              <entry value="-40" />
+              <entry value="-39" />
+              <entry value="-38" />
+              <entry value="-37" />
+              <entry value="-36" />
+              <entry value="-35" />
+              <entry value="-34" />
+              <entry value="-33" />
+              <entry value="-32" />
+              <entry value="-31" />
+              <entry value="-30" />
+              <entry value="-29" />
+              <entry value="-28" />
+              <entry value="-27" />
+              <entry value="-26" />
+              <entry value="-25" />
+              <entry value="-24" />
+              <entry value="-23" />
+              <entry value="-22" />
+              <entry value="-21" />
+              <entry value="-20" />
+              <entry value="-19" />
+              <entry value="-18" />
+              <entry value="-17" />
+              <entry value="-16" />
+              <entry value="-15" />
+              <entry value="-14" />
+              <entry value="-13" />
+              <entry value="-12" />
+              <entry value="-11" />
+              <entry value="-10" />
+              <entry value="-9" />
+              <entry value="-8" />
+              <entry value="-7" />
+              <entry value="-6" />
+              <entry value="-5" />
+              <entry value="-4" />
+              <entry value="-3" />
+              <entry value="-2" />
+              <entry value="-1" />
+              <entry value="0" />
+              <entry value="1" />
+              <entry value="2" />
+              <entry value="3" />
+              <entry value="4" />
+              <entry value="5" />
+              <entry value="6" />
+            </enum>
+          </type>
+        </parameter>
+        <parameter name="SampleRate" value="48000" securityLevel="7714" niceName="Sample rate">
+          <type>
+            <enum>
+              <entry value="8000" niceValue="8" />
+              <entry value="16000" niceValue="16" />
+              <entry value="32000" niceValue="32" />
+              <entry value="48000" niceValue="48" />
+            </enum>
+          </type>
+        </parameter>
+      </group>
+    </group>
+  </group>
+</parameterDefinitions>
